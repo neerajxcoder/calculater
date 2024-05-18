@@ -4,24 +4,54 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(255, 127, 127);
-}
-.main{
-text-align: center;
-width: 100vw;
+display: flex;
 height: 100vh;
-background-color: rgb(204, 200, 194);
+align-items: center;
+justify-content: center;
+    background-color: rgb(255, 254, 254);
 }
-.number{
-    background-color: hsl(245, 95%, 30%);
-    height: 100%;
+.box{
+    padding: 10px;
+text-align: center;
+margin: auto;
+height: 90vh;
+min-width: 90vw;
+background-color: rgb(227, 224, 224);
 }
-.number span{
-    background-color: rgb(134, 10, 235);
+.box h1{
+color: rgb(75, 73, 70);
+font-size: 30pt;
+}
+.input{
+    padding: 10px;
+
+}
+.input input{
+    height: 50PX;
+    min-width: 90vw;
+    border: none;
+    math-style: none;
+    outline: none;
+    font-size: 22px;
+    padding: 10px;
+    font-weight: 600;
 }
 .num{
-    background-color: aqua;
-    margin:     106px;
-    padding:50px ;
-    width: 10px;
+    background-color: #e2dddd;
+    margin: auto;
+    padding: 10px;
+height:60vh;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap:10px;
+}
+.span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 235, 235);
+ box-shadow: inset -3px 2px 4px rgb(209, 207, 207), inset 3px 2px 7px rgb(255, 255, 255);
 }

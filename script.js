@@ -17,11 +17,8 @@ console.log(num)
                 return;
             }
            
-            if (num === '××') {
-                input.value += '×';
-            } else {
                 input.value += num;
-            }
+              
 
             if (input.value.startsWith('%') || input.value === '') {
                 input.value = '';
@@ -29,11 +26,17 @@ console.log(num)
         });
     });
     calc.onclick = () => {
+      
         try {
         
-            const expression = input.value.replace(/×/g, '*');
+            const expression = input.value.replace(/×/, '*').replace(/÷/, '/');
+
             const result = eval(expression);
+            if( result==undefined){
+                input.value=""
+            }
             input.value = result;
+            
         } catch {
             input.value = '';
         }

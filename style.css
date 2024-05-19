@@ -8,7 +8,7 @@ display: flex;
 height: 100vh;
 align-items: center;
 justify-content: center;
-    background-color: rgb(255, 254, 254);
+    background-color: rgba(8, 8, 8, 0.947);
 }
 .box{
     padding: 10px;
@@ -16,11 +16,15 @@ text-align: center;
 margin: auto;
 height: 90vh;
 min-width: 90vw;
-background-color: rgb(227, 224, 224);
+background-color: rgb(14, 1, 1);
 }
 .box h1{
-color: rgb(75, 73, 70);
+color: rgb(240, 236, 230);
 font-size: 30pt;
+font-family:sans-serif;
+font-weight: 800;
+text-shadow:3px 3px 1px rgb(171, 150, 150);
+
 }
 .input{
     padding: 10px;
@@ -35,9 +39,10 @@ font-size: 30pt;
     font-size: 22px;
     padding: 10px;
     font-weight: 600;
+
 }
 .num{
-    background-color: #e2dddd;
+    background-color: #d3cfcf;
     margin: auto;
     padding: 10px;
 height:60vh;
@@ -46,13 +51,14 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 gap:10px;
 }
 span{
+    text-shadow:0px 0px 2px rgb(253, 251, 251);
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 30px;
     font-weight: 900;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(238, 235, 235);
- box-shadow: inset -3px 2px 4px rgb(209, 207, 207), inset 3px 2px 7px rgb(255, 255, 255);
+    background-color: rgb(129, 146, 178);
+    border: 1px solid rgb(62, 59, 59);
+ box-shadow: inset -3px 2px 4px rgb(49, 49, 49), inset 3px 2px 7px rgb(255, 255, 255);
 }

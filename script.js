@@ -33,7 +33,7 @@ console.log(num)
 
             const result = eval(expression);
             if( result==undefined){
-                input.value=""
+                input.value="c"
             }
             input.value = result;
             
